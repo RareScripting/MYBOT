@@ -25,7 +25,7 @@ if(message.content.startsWith(prefix + "hello")){
   if(message.content.startsWith(prefix + "stats")){
 
     message.channel.send(
-      message.author + "***css Bot is up and ready to go! ***")
+      message.author + "*** Bot is up and ready to go! ***")
  
    
    
