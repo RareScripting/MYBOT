@@ -39,7 +39,9 @@ if(message.content.startsWith(prefix + "hello")){
    
    
    }
-
+   if(message.channel.startTyping(prefix + "idk")){
+ 
+  }
 }
 )
 
