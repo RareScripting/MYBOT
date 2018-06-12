@@ -2,12 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const prefix = "!";
 
-bot.on('guildMemberAdd', member => {
 
-  
- 
-  channel.send('Welcome to the server', member.displayName);
-});
 
 bot.on("message", (message)=>{
 if(!message.content.startsWith(prefix)) return;
