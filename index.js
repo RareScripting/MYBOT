@@ -6,7 +6,7 @@ bot.on("message", (message)=>{
 if(!message.content.startsWith(prefix)) return;
 
 if(message.content.startsWith(prefix + "help")){
-  message.channel.send("Commands : !hello, !stats, and more to come");
+  message.channel.send("Commands : !hello, !stats, !ping, and more to come");
 
 
 }
@@ -15,13 +15,20 @@ if(message.content.startsWith(prefix + "hello")){
   
   
   }
-  if(message.content.startsWith(prefix + "stats")){
+  if(message.content.startsWith(prefix + "ping")){
 
-   message.channel.send(message.author + " Bot is up and running!")
+   message.channel.send(message.author + " Pong :D")
 
   
   
   }
+  if(message.content.startsWith(prefix + "stats")){
+
+    message.channel.send(message.author + " Bot is up and ready to go!")
+ 
+   
+   
+   }
 }
 )
 
@@ -34,8 +41,4 @@ if(message.content.startsWith(prefix + "hello")){
 bot.login('NDU1ODM0MDg3MjI4NDQwNTc3.DgCGhw.qilENLMOSxIUTpkjp06uuM4e6sk');
 
   
-
-
-
-
 
