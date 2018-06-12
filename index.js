@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const prefix = "!";
-asdasd
+
+
 bot.on('guildMemberAdd', member => {
 
   const channel = member.guild.channels.find('name', 'member-log');
