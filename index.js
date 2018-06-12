@@ -2,12 +2,9 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const prefix = "!";
 
-
 bot.on('guildMemberAdd', member => {
 
   const channel = member.guild.channels.find('name', 'member-log');
-
-  if (!channel) return;
  
   channel.send(`Welcome to the server, ${member}`);
 });
