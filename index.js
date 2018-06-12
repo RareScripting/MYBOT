@@ -39,9 +39,7 @@ if(message.content.startsWith(prefix + "hello")){
    
    
    }
-   if()
- 
-}
+  }
 )
 
 
@@ -51,6 +49,7 @@ if(message.content.startsWith(prefix + "hello")){
 
 
 bot.login('NDU1ODM0MDg3MjI4NDQwNTc3.DgCGhw.qilENLMOSxIUTpkjp06uuM4e6sk');
+
 
   
 
