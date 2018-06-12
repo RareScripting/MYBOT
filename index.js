@@ -4,9 +4,9 @@ const prefix = "!";
 
 bot.on('guildMemberAdd', member => {
 
-  const channel = member.guild.channels.find('name', 'member-log');
+  
  
-  channel.send(`Welcome to the server, ${member}`);
+  channel.send('Welcome to the server', member.author);
 });
 
 bot.on("message", (message)=>{
