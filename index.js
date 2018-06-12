@@ -39,7 +39,6 @@ if(message.content.startsWith(prefix + "hello")){
    
    
    }
-  }
 )
 
 
