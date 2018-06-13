@@ -8,7 +8,7 @@ bot.on("message", (message)=>{
 if(!message.content.startsWith(prefix)) return;
 
 if(message.content.startsWith(prefix + "help")){
-  message.channel.send("Commands : !hello, !stats, !ping, and more to come");
+  message.channel.send("Commands : !hello, !stats, !ping, !getcreator and more to come");
 
 
 }
