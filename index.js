@@ -33,7 +33,7 @@ if(message.content.startsWith(prefix + "hello")){
    
    }
    if(message.channel.startTyping(prefix + "getcreator")){
- message.channel.send(message.author + "*** Discord : RareScripting#3391 Roblox : RareScripting***"
+ message.channel.send(message.author + "*** Discord : RareScripting#3391 Roblox : RareScripting***")
   }
 }
 )
